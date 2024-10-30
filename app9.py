@@ -52,6 +52,10 @@ def get_response(user_input):
 
 # Streamlit 인터페이스
 st.title("위/대장 내시경 병변 탐지 모델")
+
+# 이미지 표시
+st.image("내시경썸네일.png", caption="Welcome to the Portfolio Chatbot", use_column_width=True)
+
 st.write("포트폴리오에 관한 질문을 입력해보세요. 예: 주제가 무엇인가요?")
 
 user_input = st.text_input("user", "")
